@@ -1,0 +1,43 @@
+body{
+    background-image: url(images/bg.png);
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+#header{
+    background-image: url(images/01.png);
+    height: 235px;
+}
+#menuButton{
+    background-image: url(images/02.png);
+    height: 45px;
+}
+#main{
+    background-image: url(images/03.png);
+}
+p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+#footer{
+    background-image: url(images/04.png);
+    height: 61px;
+}
+/* absolute 依照瀏覽器或母容器為定位 relative 依照自己原本的位置*/
+.Watermark{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.myPhoto{
+    float: left;
+    position: relative;
+    padding: 0 5px;
+}
+#mainB{
+    clear: both;
+}
+#album{
+    padding: 0 70px;
+}
